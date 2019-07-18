@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: Trebuchet MS, sans-serif;
+}
+body{
+  background-color: #f6f6f6;
+  display: flex;
+  justify-content: center;
+  align-items: middle;
+}
+.content {
+  display: inline-block;
+  vertical-align: 50%;
+  background-color: #ffffff;
+  width: 1010px;
+  padding: 65px 48px;
+}
+.img {
+  float: left;
+  margin-right: 100px;
+  height: 375px;
+  width: 375px;
+  background-image: url(../img/headphones.png);
+}
+.price-head {
+  font-size: 15px;
+}
+.price {
+  font-size: 30px;
+}
+.btn {
+  display: inline-block;
+  padding: 16px 39px;
+  background-color: #ec744a;
+  text-decoration: none;
+  font-size: 19px;
+  color: #ffffff;
+}
+
